@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-size:cover;
+    width: 100%;
+    height: 1050px;
+    background-image: url(../img/bg/header_bg.jpg);
+    /* ... */
+}
+.topline{
+    width:100%;
+    height: 80px;
+    position: relative;
+
+}
+.word_qianku{
+    font-size: 32px;
+    color: white;
+    position: absolute;
+    bottom:0%;
+    left:18%;
+}
+.titlebox{
+    display:inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: nowrap row;
+    width: 300px;
+    height: 40px;
+    position: absolute;
+    bottom: 0%;
+    left:40%;
+    
+}
+.titlebox .title{
+    font-size: 18px;
+    color: white;
+}
+.logreg{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: nowrap row;
+    width:100px;
+    height:35px;
+    position: absolute;
+    bottom: 0%;
+    right:20%;
+    border-radius:  5px 5px 5px 5px;
+    font-size: 15px;
+    font-weight: 400;
+    color:white;
+    background-color: rgb(99, 200, 247);
+}
+.text1{
+    color:white;
+    font-size: 30px;
+    display: inline-block;
+    position: absolute;
+    letter-spacing:2px;
+    width:700px;
+    height:80px;
+    top:140px;
+    right:275px;
+
+}
+.text2{
+    position: absolute;
+    height: 300px;
+    left:290px;
+    width:350px;
+    top:285px;
+    font-size: 17.5px;
+    color:white;
+    line-height: 32px;
+}
+.more{
+    border-radius:  5px 5px 5px 5px;
+    font-size: 15px;
+    font-weight: 400;
+    color:whitesmoke;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width:100px;
+    height:35px;
+    position: absolute;
+    left: 290px;
+    top:425px;
+    background-color: rgb(116, 206, 248);
+}
+.picture_3{
+    display: flex;
+    flex-flow: row nowrap;
+    text-align: center;
+    width:1000px;
+    height:360px;
+    justify-content: space-around;
+    position: absolute;
+    top:640px;
+    left:50%;
+    transform: translateX(-50%);
+    background-color: whtie;
+}
+.picture_3 .picturebox{
+    background-color: white;
+    width:305px;
+    height:90%;
+    border-radius:  10px 10px 10px 10px;
+    box-shadow: 2px 2px 2px rgb(153, 153, 153);
+    display: flex;
+    align-content: space-around;
+    text-align: center;
+    flex-flow:column;
+    align-items: center;
+    
+    
+}
+ .bo1 .pt{
+    width: 103px;
+    height:100px;
+}
+.picturebox .bo1{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width:100%;
+    height:50%;
+    
+
+}
+.bo2{
+    width:100%;
+    height:20%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-size: 22px;
+    font-weight: 450;
+    
+}
+.bo3{
+    width:55%;
+    height:30%;
+    display: flex;
+    align-items: flex-start;
+    justify-content:center;
+    font-size: 17px;
+    font-weight: 250;
+   
+
+}
+    
